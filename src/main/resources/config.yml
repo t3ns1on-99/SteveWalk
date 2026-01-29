@@ -1,0 +1,10 @@
+# t3ns1on default config
+world: ""
+a:
+  x: 0
+  y: 0
+  z: 0
+b:
+  x: 0
+  y: 0
+  z: 0

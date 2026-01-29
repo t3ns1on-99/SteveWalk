@@ -1,0 +1,18 @@
+name: t3ns1on
+version: 1.0.0
+main: hu.t3ns1on.T3ns1onPlugin
+api-version: "1.21"
+author: t3ns1on
+depend: [Citizens]
+
+commands:
+  setnpcpoints:
+    usage: /setnpcpoints pos1|pos2
+    permission: t3ns1on.admin
+  startnpc:
+    usage: /startnpc
+    permission: t3ns1on.admin
+
+permissions:
+  t3ns1on.admin:
+    default: op
